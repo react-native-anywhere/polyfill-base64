@@ -1,0 +1,23 @@
+{
+  "name": "@react-native-anywhere/polyfill-base64",
+  "version": "0.0.1-alpha.0",
+  "description": "A polyfill used to add btoa() and atob() to the global scope.",
+  "main": "dist",
+  "repository": "https://github.com/react-native-anywhere/polyfill-base64",
+  "author": "Alex Thomas (@cawfree) <alex@getuni.app>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "base-64": "^0.1.0"
+  },
+  "scripts": {
+    "build": "babel src --out-dir dist"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.11.6",
+    "@babel/core": "^7.11.6",
+    "@babel/node": "^7.10.5",
+    "@babel/polyfill": "^7.11.5",
+    "@babel/preset-env": "^7.11.5"
+  }
+}
