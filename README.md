@@ -1,4 +1,4 @@
-# polyfill-base64
+# @react-native-anywhere/polyfill-base64
 A polyfill used to add btoa and atob to the global scope.
 
 ## 🚀 Getting Started
